@@ -1,1 +1,11 @@
-/* Start coding here */
+
+    
+
+
+.box{
+    max-width: 720px;
+    border: 2px white solid;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
