@@ -1,11 +1,45 @@
-
-    
-
-
-.box{
-    max-width: 720px;
-    border: 2px white solid;
-    text-align: center;
-    display: flex;
-    justify-content: center;
+* {
+  margin: 0;
+  padding: 0;
 }
+
+.linear-box {
+  display: inline-block;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+    50deg,
+    hsl(0, 100%, 70%),
+    hsl(240, 100%, 70%)
+  );
+  text-align: center;
+}
+
+.text-box {
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 100px;
+  width: 60%;
+  height: 60%;
+  background-color: hsl(0, 50%, 100%, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+.head-title {
+  text-align: center;
+  font: optional;
+  justify-content: center;
+  margin-left: center;
+  margin-right: center;
+  margin-top: 40px;
+}
+
+.thank-cus {
+  display: inline-block;
+  text-align: justify;
+  margin-left: center;
+  margin-right: center;
+  margin-top: 40px;
+  width: 70%;
+}
+
